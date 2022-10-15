@@ -1,8 +1,9 @@
 name: Example workflow for S3 Deploy
-on: 
+on:
   push:
     branches:
-      - master
+      - main
+
 jobs:
   run:
     runs-on: ubuntu-latest
