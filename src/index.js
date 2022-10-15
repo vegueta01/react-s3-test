@@ -10,7 +10,7 @@ const App = () => {
       <h1>antd version: {version}</h1>
       <Space>
         <DatePicker />
-        <Button type="primary">Primary Button</Button>
+        <Button type="primary">Primary Button test pipeline</Button>
       </Space>
     </div>
   );
