@@ -1,0 +1,21 @@
+{
+  "scripts": {
+    "start": "cross-env PORT=4100 react-scripts start",
+    "build": "react-scripts build",
+    "test": "cross-env PORT=4100 react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+    "dependencies": {
+      "react-dom": "latest",
+      "react": "latest",
+      "moment": "latest",
+      "antd": "latest"
+    },
+    "devDependencies": {
+      "cross-env": "^5.1.4",
+      "react-scripts": "1.1.1"
+    },
+    "keywords": [],
+    "name": "antd-reproduction-template",
+    "description": ""
+  }
