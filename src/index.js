@@ -7,7 +7,7 @@ import "./index.css";
 const App = () => {
   return (
     <div className="App">
-      <h1>antd version: {version}</h1>
+      <h1>Mi deply outo: {version}</h1>
       <Space>
         <DatePicker />
         <Button type="primary">Primary Button test pipeline</Button>
